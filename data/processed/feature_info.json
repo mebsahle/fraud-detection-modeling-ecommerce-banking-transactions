@@ -1,0 +1,30 @@
+{
+  "feature_columns": [
+    "user_id",
+    "age",
+    "purchase_value",
+    "ip_int",
+    "signup_hour",
+    "purchase_hour",
+    "signup_day_of_week",
+    "purchase_day_of_week",
+    "time_diff_hours",
+    "sex_encoded",
+    "age_group_encoded",
+    "purchase_category_encoded",
+    "country_encoded"
+  ],
+  "numerical_features": [
+    "age",
+    "purchase_value",
+    "ip_int",
+    "time_diff_hours"
+  ],
+  "categorical_columns": [
+    "sex",
+    "age_group",
+    "purchase_category",
+    "country"
+  ],
+  "total_features": 13
+}
